@@ -37,7 +37,7 @@ function ServiceCard({ service }: { service: ServiceItem }) {
         setHovered(false);
         setActive(0);
       }}
-      className="group relative block aspect-[3/4] w-[78%] shrink-0 snap-start overflow-hidden rounded-3xl bg-navy-dark shadow-[0_18px_40px_-22px_rgba(15,23,42,.55)] transition duration-500 hover:-translate-y-1 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-navy focus-visible:ring-offset-2 sm:w-[calc((100%-1.5rem)/2)] lg:w-[calc((100%-3rem)/3)] xl:w-[calc((100%-4.5rem)/4)]"
+      className="group relative block aspect-[3/4] w-[85%] shrink-0 snap-start overflow-hidden rounded-2xl sm:rounded-3xl bg-navy-dark shadow-[0_18px_40px_-22px_rgba(15,23,42,.55)] transition duration-500 hover:-translate-y-1 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-navy focus-visible:ring-offset-2 sm:w-[calc((100%-1.5rem)/2)] lg:w-[calc((100%-3rem)/3)] xl:w-[calc((100%-4.5rem)/4)]"
     >
       {/* Images: scaled from the bottom so any black bar at the top of the source is cropped */}
       {gallery.map((img, i) => (
@@ -54,7 +54,7 @@ function ServiceCard({ service }: { service: ServiceItem }) {
       ))}
 
       {/* Bottom navy gradient */}
-      <div className="absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-navy-dark via-navy-dark/70 to-transparent" />
+      <div className="absolute inset-x-0 bottom-0 h-1/2 bg-navy-dark/80" />
 
       {/* Dots */}
       {gallery.length > 1 && (
@@ -78,15 +78,15 @@ function ServiceCard({ service }: { service: ServiceItem }) {
       )}
 
       {/* Title + subtitle + arrow */}
-      <div className="absolute inset-x-0 bottom-0 flex items-end justify-between gap-3 p-5">
+      <div className="absolute inset-x-0 bottom-0 flex items-end justify-between gap-2 sm:gap-3 p-4 sm:p-5">
         <div className="min-w-0">
-          <h3 className="font-display text-lg font-bold uppercase leading-tight tracking-wide text-white sm:text-xl">
+          <h3 className="font-display text-sm font-bold uppercase leading-tight tracking-wide text-white sm:text-base lg:text-lg xl:text-xl">
             {service.title}
           </h3>
-          <p className="mt-1 line-clamp-1 text-sm text-white/80">{service.desc}</p>
+          <p className="mt-0.5 sm:mt-1 line-clamp-1 text-xs sm:text-sm text-white/80">{service.desc}</p>
         </div>
-        <span className="grid h-11 w-11 shrink-0 place-items-center rounded-full bg-white/25 text-white backdrop-blur-md transition duration-300 group-hover:bg-saffron">
-          <ArrowRight size={20} />
+        <span className="grid h-9 w-9 shrink-0 place-items-center rounded-full bg-white/25 text-white backdrop-blur-md transition duration-300 group-hover:bg-saffron sm:h-11 sm:w-11">
+          <ArrowRight className="h-4 w-4 sm:h-5 sm:w-5" />
         </span>
       </div>
     </Link>
@@ -137,7 +137,7 @@ export default function Services() {
   };
 
   return (
-    <section id="services" className="bg-surface py-24 sm:py-32">
+    <section id="services" className="bg-surface py-16 pb-20">
       <div className="container-x">
         <Reveal className="mx-auto max-w-2xl text-center">
           <p className="eyebrow">What We Do</p>

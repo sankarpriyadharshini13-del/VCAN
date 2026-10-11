@@ -1,9 +1,12 @@
 import type { Metadata, Viewport } from "next";
 import { Sora, DM_Sans } from "next/font/google";
+import dynamic from "next/dynamic";
 import "./globals.css";
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
-import FloatButtons from "@/components/FloatButtons";
+
+const Navbar = dynamic(() => import("@/components/Navbar"), { ssr: true });
+const Footer = dynamic(() => import("@/components/Footer"), { ssr: true });
+const FloatButtons = dynamic(() => import("@/components/FloatButtons"), { ssr: false });
+const AIChatbot = dynamic(() => import("@/components/AIChatbot"), { ssr: false });
 
 const display = Sora({ subsets: ["latin"], variable: "--font-display", weight: ["400", "600", "700", "800"] });
 const body = DM_Sans({ subsets: ["latin"], variable: "--font-body" });
@@ -18,6 +21,11 @@ export const metadata: Metadata = {
   icons: { icon: "/assets/favicon.ico" },
   openGraph: { title, description, url: "https://www.vcan3d.com/", siteName: "VCAN 3D", locale: "en_IN", type: "website", images: [{ url: "/assets/home.jpeg", width: 1200, height: 630 }] },
   twitter: { card: "summary_large_image", title, description },
+  other: {
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "Referrer-Policy": "strict-origin-when-cross-origin",
+  },
 };
 export const viewport: Viewport = { width: "device-width", initialScale: 1, themeColor: "#0B0F19" };
 
@@ -37,6 +45,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <main>{children}</main>
         <Footer />
         <FloatButtons />
+        <AIChatbot />
       </body>
     </html>
   );

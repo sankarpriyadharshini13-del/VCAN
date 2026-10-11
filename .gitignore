@@ -8,10 +8,10 @@
 
 # next.js
 /.next/
-/out/
 
 # production
 /build
+/out/
 
 # misc
 .DS_Store
@@ -23,10 +23,16 @@ yarn-debug.log*
 yarn-error.log*
 
 # local env files
+.env
 .env*.local
 
 # vercel
 .vercel
+
+# firebase
+.firebase/
+.firebaserc
+firebase.json
 
 # typescript
 *.tsbuildinfo

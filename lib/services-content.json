@@ -1,7 +1,7 @@
 {
  "fdm": {
   "title": "FDM 3D Printing",
-  "subtitle": "Precision layer-by-layer thermoplastic manufacturing in Chennai",
+  "subtitle": "Source high-performing parts for rapid prototyping and low-volume industrial production with FDM 3D printing. We offer an FDM printing service for quick-turn manufacturing using a variety of robust materials for many use cases and can print parts in 1 day.",
   "blocks": [
    {
     "t": "h2",
@@ -9,33 +9,171 @@
    },
    {
     "t": "p",
-    "x": "FDM (Fused Deposition Modeling) is a 3D printing technology that melts thermoplastic filament and deposits it layer by layer to build a part. It is one of the most commonly used and cost-effective 3D printing methods, widely used in Chennai and globally for functional prototypes and engineering components."
+    "x": "FDM (Fused Deposition Modeling), also known as Fused Filament Fabrication, is an additive manufacturing process that heats thermoplastic filament and deposits it layer by layer to build parts from a digital CAD model. It is the most widely used 3D printing technology globally, accounting for the largest installed base of 3D printers worldwide. FDM is the first process engineers consider for rapid prototyping and functional parts due to its cost-effectiveness and versatility."
+   },
+   {
+    "t": "h2",
+    "x": "How Does FDM 3D Printing Work?"
+   },
+   {
+    "t": "p",
+    "x": "FDM builds parts by depositing melted filament onto a build platform layer by layer until the part is complete. The process starts with a digital design file translated into machine instructions. The filament is fed into a heated nozzle, melted, and extruded in thin strands along a programmed toolpath. Each strand cools and fuses to the previous layer to form a solid geometry. The build platform lowers after each layer, and the cycle repeats until the full part is produced."
    },
    {
     "t": "h3",
-    "x": "🔧 How FDM Works:"
+    "x": "🔧 The FDM Process:"
    },
    {
     "t": "list",
     "items": [
-     "Plastic filament (PLA, ABS, PETG, Nylon, etc.) is fed into the printer",
-     "Nozzle heats and melts the filament",
-     "Melted material is extruded layer by layer",
-     "Layers cool and solidify to form the final part"
+     "Digital design file is converted to machine instructions",
+     "Thermoplastic filament is fed into the heated nozzle",
+     "Material melts and is extruded in thin strands",
+     "Nozzle moves along programmed toolpath (X, Y, Z axes)",
+     "Layers cool and fuse to form solid geometry",
+     "Build platform lowers for each new layer",
+     "Process repeats until part is complete"
     ]
    },
    {
+    "t": "h2",
+    "x": "Materials Available in Our FDM Printing Service"
+   },
+   {
+    "t": "p",
+    "x": "We offer a wide range of thermoplastic materials for FDM printing, from commodity polymers to high-performance engineering plastics. Each material has unique properties suited for different applications."
+   },
+   {
     "t": "h3",
-    "x": "⭐ Advantages of FDM 3D Printing"
+    "x": "Standard Materials"
    },
    {
     "t": "grid",
     "items": [
-     "Cost-effective production",
-     "Strong & functional parts",
-     "Large size printing possible",
-     "Suitable for engineering applications",
-     "Fast prototype production"
+     "PLA - Easy to print, excellent visual quality, ideal for concept models",
+     "ABS - Good strength and temperature resistance, suitable for functional parts",
+     "PETG - Food-safe, good strength, easy to print with balanced properties"
+    ]
+   },
+   {
+    "t": "h3",
+    "x": "Engineering Materials"
+   },
+   {
+    "t": "grid",
+    "items": [
+     "Nylon (PA) - High strength, excellent wear and chemical resistance",
+     "TPU - Very flexible, ideal for flexible prototypes and seals",
+     "PEI (Ultem) - Excellent strength-to-weight, fire and chemical resistance"
+    ]
+   },
+   {
+    "t": "h2",
+    "x": "Advantages of FDM 3D Printing"
+   },
+   {
+    "t": "p",
+    "x": "FDM is a cost-effective additive process that supports a wide range of thermoplastic materials. It offers fast turnaround for prototypes and low-volume production, straightforward material tradeoffs for strength and flexibility, and predictable scaling from desktop to industrial systems."
+   },
+   {
+    "t": "h3",
+    "x": "✅ Key Benefits"
+   },
+   {
+    "t": "grid",
+    "items": [
+     "Cost-effective production for prototypes and low-volume parts",
+     "Fast turnaround - parts can be printed in as little as 1 day",
+     "Wide material selection from commodity to high-performance thermoplastics",
+     "Strong, functional parts suitable for engineering applications",
+     "Large build volumes available on industrial machines",
+     "No toxic chemicals or resins required",
+     "Easy to design and iterate quickly"
+    ]
+   },
+   {
+    "t": "h2",
+    "x": "Drawbacks of FDM 3D Printing"
+   },
+   {
+    "t": "p",
+    "x": "While FDM offers many advantages, it has some limitations compared to other 3D printing technologies. Understanding these drawbacks helps determine when FDM is the right choice for your project."
+   },
+   {
+    "t": "h3",
+    "x": "⚠️ Limitations"
+   },
+   {
+    "t": "grid",
+    "items": [
+     "Visible layer lines may require post-processing for smooth finish",
+     "Lower resolution compared to SLA or SLS technologies",
+     "Anisotropic strength - parts are weaker across layer lines",
+     "Support structures required for overhangs, can be difficult to remove",
+     "Warping can occur with certain materials (especially ABS)",
+     "Not ideal for parts requiring very fine details or high cosmetic quality"
+    ]
+   },
+   {
+    "t": "h2",
+    "x": "Comparing FDM to Other 3D Printing Processes"
+   },
+   {
+    "t": "p",
+    "x": "FDM is one of several 3D printing technologies, each with unique strengths. Understanding the differences helps you choose the right process for your application."
+   },
+   {
+    "t": "h3",
+    "x": "FDM vs SLA (Stereolithography)"
+   },
+   {
+    "t": "grid",
+    "items": [
+     "FDM: Uses thermoplastic filament, strong functional parts, visible layers",
+     "SLA: Uses liquid resin, extremely high detail, smooth surface finish",
+     "FDM: Lower cost per part, wider material selection",
+     "SLA: Higher resolution, better for cosmetic and detailed prototypes"
+    ]
+   },
+   {
+    "t": "h3",
+    "x": "FDM vs SLS (Selective Laser Sintering)"
+   },
+   {
+    "t": "grid",
+    "items": [
+     "FDM: Requires support structures, extrudes melted filament",
+     "SLS: No supports needed, fuses powder with laser",
+     "FDM: Lower cost, faster for simple parts",
+     "SLS: More complex geometries possible, isotropic strength"
+    ]
+   },
+   {
+    "t": "h3",
+    "x": "FDM vs MJF (Multi Jet Fusion)"
+   },
+   {
+    "t": "grid",
+    "items": [
+     "FDM: Layer-by-layer extrusion, suitable for prototyping",
+     "MJF: Powder bed fusion, excellent for production parts",
+     "FDM: Lower machine cost, good for small quantities",
+     "MJF: Higher throughput, better mechanical properties"
+    ]
+   },
+   {
+    "t": "h3",
+    "x": "💡 When to Choose FDM"
+   },
+   {
+    "t": "list",
+    "items": [
+     "Rapid prototyping and design iteration",
+     "Functional parts requiring strength and durability",
+     "Low-volume production of 10-1000 parts",
+     "Applications where cost is a primary concern",
+     "Parts that don't require extremely fine detail or smooth surfaces",
+     "Projects needing quick turnaround (1-3 days)"
     ]
    }
   ],

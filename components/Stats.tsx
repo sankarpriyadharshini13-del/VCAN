@@ -4,13 +4,13 @@ import { STATS } from "@/lib/data";
 
 export default function Stats() {
   return (
-    <div className="container-x relative z-20 -mt-20">
+    <div className="container-x relative z-20 bg-navy-dark py-8 sm:py-12">
       <Reveal>
-        <div className="grid grid-cols-2 gap-y-6 rounded-3xl border border-black/5 bg-white p-4 shadow-[0_30px_60px_-20px_rgba(0,0,0,.25)] sm:p-6 lg:grid-cols-4">
+        <div className="grid grid-cols-2 gap-3 sm:gap-4 sm:grid-cols-4">
           {STATS.map((s, i) => (
-            <div key={s.label} className={`px-2 text-center ${i < 3 ? "lg:border-r lg:border-black/10" : ""}`}>
-              <p className={`font-display text-3xl font-extrabold sm:text-4xl ${i % 2 ? "text-india" : "text-saffron"}`}><CountUp to={s.to} suffix={s.suffix} /></p>
-              <p className="mt-1 text-[10px] text-muted sm:text-xs">{s.label}</p>
+            <div key={s.label} className="rounded-xl sm:rounded-2xl border border-white/10 bg-white/5 p-4 sm:p-6 text-center backdrop-blur-sm transition-all hover:bg-white/10">
+              <p className={`font-display text-2xl font-extrabold sm:text-3xl lg:text-4xl ${i % 2 ? "text-india" : "text-saffron"}`}><CountUp to={s.to} suffix={s.suffix} /></p>
+              <p className="mt-1 sm:mt-2 text-[10px] sm:text-xs lg:text-sm text-white/80">{s.label}</p>
             </div>
           ))}
         </div>
