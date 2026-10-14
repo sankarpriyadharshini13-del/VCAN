@@ -5,15 +5,17 @@ import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { ChevronDown, Menu, X } from "lucide-react";
-import { QUOTE_URL, SERVICES } from "@/lib/data";
+import { QUOTE_URL, SERVICES, INDUSTRIES } from "@/lib/data";
 
-const links = [["Home", "/"], ["About", "/#about"], ["Services", "/#services"], ["Process", "/#process"], ["Contact", "/#contact"]];
+const links = [["Home", "/"], ["About", "/#about"], ["Services", "/#services"], ["Industries", "/#industries"], ["Process", "/#process"], ["Contact", "/#contact"]];
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [servicesOpen, setServicesOpen] = useState(false); // desktop dropdown
+  const [industriesOpen, setIndustriesOpen] = useState(false); // desktop dropdown
   const [menuOpen, setMenuOpen] = useState(false); // mobile drawer
   const [mobileServicesOpen, setMobileServicesOpen] = useState(false);
+  const [mobileIndustriesOpen, setMobileIndustriesOpen] = useState(false);
   const pathname = usePathname();
 
   // Scroll state
@@ -28,7 +30,9 @@ export default function Navbar() {
   useEffect(() => {
     setMenuOpen(false);
     setServicesOpen(false);
+    setIndustriesOpen(false);
     setMobileServicesOpen(false);
+    setMobileIndustriesOpen(false);
   }, [pathname]);
 
   // Lock body scroll + Escape to close while the drawer is open
@@ -136,6 +140,62 @@ export default function Navbar() {
                 </div>
               );
             }
+            if (l === "Industries") {
+              return (
+                <div
+                  key={l}
+                  className="relative"
+                  onMouseEnter={() => setIndustriesOpen(true)}
+                  onMouseLeave={() => setIndustriesOpen(false)}
+                  onFocus={() => setIndustriesOpen(true)}
+                  onBlur={(e) => {
+                    if (!e.currentTarget.contains(e.relatedTarget as Node)) setIndustriesOpen(false);
+                  }}
+                >
+                  <Link
+                    href={h}
+                    aria-haspopup="true"
+                    aria-expanded={industriesOpen}
+                    className="group relative flex items-center gap-1 text-sm font-medium text-white/80 transition-colors hover:text-white"
+                  >
+                    {l}
+                    <ChevronDown size={16} className={`transition-transform ${industriesOpen ? "rotate-180" : ""}`} />
+                    <span className="absolute -bottom-1.5 left-0 h-0.5 w-0 bg-saffron transition-all duration-300 group-hover:w-full" />
+                  </Link>
+                  <AnimatePresence>
+                    {industriesOpen && (
+                      <motion.div
+                        initial={{ opacity: 0, y: 10 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        exit={{ opacity: 0, y: 10 }}
+                        transition={{ duration: 0.2 }}
+                        className="absolute left-1/2 top-full -translate-x-1/2 pt-4"
+                      >
+                        <div className="w-[min(500px,calc(100vw-2rem))] rounded-2xl border border-white/10 bg-navy-dark/95 p-5 shadow-2xl backdrop-blur-xl xl:p-6">
+                          <div className="grid grid-cols-2 gap-3 xl:gap-4">
+                            {INDUSTRIES.map((industry) => (
+                              <Link
+                                key={industry.slug}
+                                href={`/industries/${industry.slug}`}
+                                className="group flex items-start gap-3 rounded-xl border border-white/5 bg-white/5 p-3 transition-all hover:border-saffron/30 hover:bg-white/10 xl:p-4"
+                              >
+                                <div className="shrink-0 rounded-lg bg-india/10 p-2 text-india">{industry.icon}</div>
+                                <div className="min-w-0">
+                                  <h3 className="text-sm font-semibold text-white transition-colors group-hover:text-india">
+                                    {industry.name}
+                                  </h3>
+                                  <p className="mt-1 line-clamp-2 text-xs text-white/60">{industry.desc}</p>
+                                </div>
+                              </Link>
+                            ))}
+                          </div>
+                        </div>
+                      </motion.div>
+                    )}
+                  </AnimatePresence>
+                </div>
+              );
+            }
             return (
               <Link key={l} href={h} className="group relative text-sm font-medium text-white/80 transition-colors hover:text-white">
                 {l}
@@ -229,6 +289,60 @@ export default function Navbar() {
                                     <div className="min-w-0">
                                       <h3 className="text-sm font-semibold text-white">{service.title}</h3>
                                       <p className="mt-0.5 line-clamp-2 text-xs text-white/60">{service.desc}</p>
+                                    </div>
+                                  </Link>
+                                ))}
+                              </div>
+                            </motion.div>
+                          )}
+                        </AnimatePresence>
+                      </li>
+                    );
+                  }
+                  if (l === "Industries") {
+                    return (
+                      <li key={l} className="border-b border-white/10">
+                        <div className="flex items-center justify-between py-4">
+                          <Link
+                            href={h}
+                            onClick={closeMenu}
+                            className="flex-1 text-base font-medium text-white/90 transition-colors hover:text-india"
+                          >
+                            {l}
+                          </Link>
+                          <button
+                            type="button"
+                            onClick={(e) => {
+                              e.stopPropagation();
+                              setMobileIndustriesOpen((o) => !o);
+                            }}
+                            aria-expanded={mobileIndustriesOpen}
+                            className="ml-2 p-1 text-white/90 transition-colors hover:text-white"
+                          >
+                            <ChevronDown size={18} className={`transition-transform duration-300 ${mobileIndustriesOpen ? "rotate-180" : ""}`} />
+                          </button>
+                        </div>
+                        <AnimatePresence initial={false}>
+                          {mobileIndustriesOpen && (
+                            <motion.div
+                              initial={{ height: 0, opacity: 0 }}
+                              animate={{ height: "auto", opacity: 1 }}
+                              exit={{ height: 0, opacity: 0 }}
+                              transition={{ duration: 0.25 }}
+                              className="overflow-hidden"
+                            >
+                              <div className="grid gap-2 pb-4 sm:grid-cols-2">
+                                {INDUSTRIES.map((industry) => (
+                                  <Link
+                                    key={industry.slug}
+                                    href={`/industries/${industry.slug}`}
+                                    onClick={closeMenu}
+                                    className="flex items-start gap-3 rounded-xl border border-white/5 bg-white/5 p-3 transition-colors hover:border-india/30 hover:bg-white/10"
+                                  >
+                                    <div className="shrink-0 rounded-lg bg-india/10 p-2 text-india">{industry.icon}</div>
+                                    <div className="min-w-0">
+                                      <h3 className="text-sm font-semibold text-white">{industry.name}</h3>
+                                      <p className="mt-0.5 line-clamp-2 text-xs text-white/60">{industry.desc}</p>
                                     </div>
                                   </Link>
                                 ))}

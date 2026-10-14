@@ -1,0 +1,338 @@
+{
+  "aerospace": {
+    "title": "3D Printing in Aerospace",
+    "subtitle": "Precision 3D printing solutions for aerospace applications including drone components, aircraft parts, and prototyping with lightweight, high-strength materials.",
+    "applications": [
+      "Drone components and UAVs",
+      "Aircraft interior parts",
+      "Jig and fixture manufacturing",
+      "Sensor enclosures and housings",
+      "Surrogate parts for testing",
+      "Lightweight structural parts",
+      "Thermal protection components"
+    ],
+    "lifecycle": [
+      {
+        "stage": "Stage 1",
+        "title": "Consultation & Requirements",
+        "description": "We discuss your aerospace project requirements, material needs, and performance specifications to ensure the best 3D printing solution."
+      },
+      {
+        "stage": "Stage 2",
+        "title": "Design Review",
+        "description": "Our team reviews your CAD files for manufacturability, suggests optimizations, and prepares the design for 3D printing."
+      },
+      {
+        "stage": "Stage 3",
+        "title": "Prototyping",
+        "description": "We produce functional prototypes using appropriate 3D printing technologies for testing and validation."
+      },
+      {
+        "stage": "Stage 4",
+        "title": "Production",
+        "description": "Final parts are manufactured with quality control measures to meet aerospace standards."
+      },
+      {
+        "stage": "Stage 5",
+        "title": "Delivery & Support",
+        "description": "Parts are delivered with quality documentation and ongoing support for your project."
+      }
+    ],
+    "materials": [
+      {
+        "name": "ABS",
+        "description": "Strong and durable with good temperature resistance",
+        "maxSize": "Varies by machine",
+        "tolerance": "± 0.2mm"
+      },
+      {
+        "name": "Nylon (PA)",
+        "description": "High strength-to-weight ratio, excellent for aerospace",
+        "maxSize": "Varies by machine",
+        "tolerance": "± 0.25mm"
+      },
+      {
+        "name": "PC (Polycarbonate)",
+        "description": "High impact strength and heat resistance",
+        "maxSize": "Varies by machine",
+        "tolerance": "± 0.2mm"
+      },
+      {
+        "name": "PETG",
+        "description": "Good balance of strength and flexibility",
+        "maxSize": "Varies by machine",
+        "tolerance": "± 0.2mm"
+      }
+    ],
+    "finishes": [
+      {
+        "name": "Raw",
+        "description": "As-printed surface finish"
+      },
+      {
+        "name": "Painted",
+        "description": "Custom paint finishes available"
+      },
+      {
+        "name": "Sanded",
+        "description": "Smooth surface for further processing"
+      },
+      {
+        "name": "Tumbled",
+        "description": "Uniform matte finish"
+      }
+    ]
+  },
+  "automotive": {
+    "title": "3D Printing in Automotive",
+    "subtitle": "Rapid prototyping and production parts for automotive industry including bikes, scooters, cars, and truck components with quick turnaround times from our Chennai facility.",
+    "applications": [
+      "Bike and scooter components",
+      "Car interior parts",
+      "Engine components and housings",
+      "Custom fixtures and jigs",
+      "Dashboard prototypes",
+      "Exterior trim pieces",
+      "Replacement parts"
+    ],
+    "lifecycle": [
+      {
+        "stage": "Stage 1",
+        "title": "Requirement Analysis",
+        "description": "We analyze your automotive component requirements including material specifications and performance needs."
+      },
+      {
+        "stage": "Stage 2",
+        "title": "Design Optimization",
+        "description": "Our team optimizes your CAD files for 3D printing, ensuring best orientation and material selection."
+      },
+      {
+        "stage": "Stage 3",
+        "title": "Rapid Prototyping",
+        "description": "Quick prototypes produced for fit testing and design validation before full production."
+      },
+      {
+        "stage": "Stage 4",
+        "title": "Production",
+        "description": "Manufacturing of final parts with quality checks to meet automotive standards."
+      },
+      {
+        "stage": "Stage 5",
+        "title": "Quality Delivery",
+        "description": "Parts inspected and delivered with quality documentation for your automotive applications."
+      }
+    ],
+    "materials": [
+      {
+        "name": "ABS",
+        "description": "Widely used in automotive, good strength and temperature resistance",
+        "maxSize": "Varies by machine",
+        "tolerance": "± 0.2mm"
+      },
+      {
+        "name": "PETG",
+        "description": "Chemical resistant, good dimensional stability",
+        "maxSize": "Varies by machine",
+        "tolerance": "± 0.2mm"
+      },
+      {
+        "name": "Nylon (PA)",
+        "description": "Excellent wear resistance for functional parts",
+        "maxSize": "Varies by machine",
+        "tolerance": "± 0.25mm"
+      },
+      {
+        "name": "TPU",
+        "description": "Flexible material for seals and flexible components",
+        "maxSize": "Varies by machine",
+        "tolerance": "± 0.3mm"
+      }
+    ],
+    "finishes": [
+      {
+        "name": "Raw",
+        "description": "As-printed finish"
+      },
+      {
+        "name": "Painted",
+        "description": "Automotive grade paint available"
+      },
+      {
+        "name": "Textured",
+        "description": "Custom texture options"
+      },
+      {
+        "name": "Dyed",
+        "description": "Color matching available"
+      }
+    ]
+  },
+  "medical": {
+    "title": "3D Printing in Medical",
+    "subtitle": "Precision 3D printing solutions for medical devices and healthcare including surgical guides, prosthetics, and anatomical models with biocompatible materials.",
+    "applications": [
+      "Surgical guides and templates",
+      "Prosthetics and orthotics",
+      "Medical device prototypes",
+      "Dental models and aligners",
+      "Anatomical models for planning",
+      "Custom surgical instruments",
+      "Biocompatible implants"
+    ],
+    "lifecycle": [
+      {
+        "stage": "Stage 1",
+        "title": "Medical Consultation",
+        "description": "We discuss your medical device requirements, biocompatibility needs, and regulatory considerations."
+      },
+      {
+        "stage": "Stage 2",
+        "title": "Design Validation",
+        "description": "Our team reviews your medical device designs for 3D printing suitability and optimization."
+      },
+      {
+        "stage": "Stage 3",
+        "title": "Prototyping",
+        "description": "Medical-grade prototypes produced using appropriate technologies for testing and validation."
+      },
+      {
+        "stage": "Stage 4",
+        "title": "Production",
+        "description": "Final parts manufactured with quality control for medical applications."
+      },
+      {
+        "stage": "Stage 5",
+        "title": "Sterilization & Delivery",
+        "description": "Parts undergo sterilization processes and are delivered with proper documentation."
+      }
+    ],
+    "materials": [
+      {
+        "name": "PLA",
+        "description": "Biodegradable, suitable for anatomical models",
+        "maxSize": "Varies by machine",
+        "tolerance": "± 0.2mm"
+      },
+      {
+        "name": "Resin (Clear)",
+        "description": "High detail, transparent for visualization",
+        "maxSize": "Varies by machine",
+        "tolerance": "± 0.1mm"
+      },
+      {
+        "name": "Nylon (PA11)",
+        "description": "Biocompatible, suitable for long-term use",
+        "maxSize": "Varies by machine",
+        "tolerance": "± 0.25mm"
+      },
+      {
+        "name": "PETG",
+        "description": "Food-safe options available",
+        "maxSize": "Varies by machine",
+        "tolerance": "± 0.2mm"
+      }
+    ],
+    "finishes": [
+      {
+        "name": "Raw",
+        "description": "As-printed, clean surface"
+      },
+      {
+        "name": "Sterilized",
+        "description": "Medical-grade sterilization process"
+      },
+      {
+        "name": "Polished",
+        "description": "Smooth, polished surface"
+      },
+      {
+        "name": "Clear Coated",
+        "description": "Protective clear coating"
+      }
+    ]
+  },
+  "robotics": {
+    "title": "3D Printing in Robotics",
+    "subtitle": "Custom components and enclosures for robotics and automation including robot arms, sensor housings, custom gears, and prototyping with durable materials.",
+    "applications": [
+      "Robot arms and joints",
+      "Sensor housings and mounts",
+      "Custom gears and mechanisms",
+      "Exoskeleton components",
+      "Humanoid robot parts",
+      "Industrial automation parts",
+      "End-effectors and grippers"
+    ],
+    "lifecycle": [
+      {
+        "stage": "Stage 1",
+        "title": "Requirements Gathering",
+        "description": "We analyze your robotics component requirements including load capacity and motion needs."
+      },
+      {
+        "stage": "Stage 2",
+        "title": "Design Optimization",
+        "description": "Our team optimizes your designs for 3D printing with kinematic considerations and material selection."
+      },
+      {
+        "stage": "Stage 3",
+        "title": "Prototyping",
+        "description": "Functional prototypes produced for motion testing and load verification."
+      },
+      {
+        "stage": "Stage 4",
+        "title": "Production",
+        "description": "Final parts manufactured with dimensional accuracy and mechanical testing."
+      },
+      {
+        "stage": "Stage 5",
+        "title": "Assembly & Delivery",
+        "description": "Parts delivered with assembly support and quality documentation."
+      }
+    ],
+    "materials": [
+      {
+        "name": "Nylon (PA)",
+        "description": "High strength, excellent wear resistance",
+        "maxSize": "Varies by machine",
+        "tolerance": "± 0.25mm"
+      },
+      {
+        "name": "TPU",
+        "description": "Flexible, ideal for joints and seals",
+        "maxSize": "Varies by machine",
+        "tolerance": "± 0.3mm"
+      },
+      {
+        "name": "ABS",
+        "description": "Strong and durable for structural parts",
+        "maxSize": "Varies by machine",
+        "tolerance": "± 0.2mm"
+      },
+      {
+        "name": "PETG",
+        "description": "Good balance of strength and flexibility",
+        "maxSize": "Varies by machine",
+        "tolerance": "± 0.2mm"
+      }
+    ],
+    "finishes": [
+      {
+        "name": "Raw",
+        "description": "As-printed finish"
+      },
+      {
+        "name": "Dyed",
+        "description": "Custom color options"
+      },
+      {
+        "name": "Lubricated",
+        "description": "For moving parts"
+      },
+      {
+        "name": "Assembly Ready",
+        "description": "Post-processed for assembly"
+      }
+    ]
+  }
+}

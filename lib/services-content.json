@@ -186,7 +186,7 @@
  },
  "injection-molding": {
   "title": "Injection Molding",
-  "subtitle": "Mass production of high-precision plastic parts in Chennai",
+  "subtitle": "Mass production of high-precision plastic parts in Chennai with rapid turnaround times and competitive pricing for automotive, industrial, and consumer applications.",
   "blocks": [
    {
     "t": "h2",
@@ -194,34 +194,162 @@
    },
    {
     "t": "p",
-    "x": "Injection Molding is a manufacturing process used to produce plastic parts in large quantities by injecting molten plastic material into a custom-made metal mold. After cooling and solidifying, the part is ejected from the mold. VCAN 3D provides high-precision injection molding services in Chennai for automotive, industrial, and consumer applications."
+    "x": "Injection Molding is a manufacturing process used to produce plastic parts in large quantities by injecting molten plastic material into a custom-made metal mold. After cooling and solidifying, the part is ejected from the mold. VCAN 3D provides high-precision injection molding services in Chennai for automotive, industrial, and consumer applications. This process is ideal for producing thousands to millions of identical parts with excellent consistency and repeatability."
+   },
+   {
+    "t": "h2",
+    "x": "How Does Injection Molding Work?"
+   },
+   {
+    "t": "p",
+    "x": "Injection molding follows a precise sequence of steps to transform plastic granules into finished parts. The process begins with material preparation and ends with quality inspection, ensuring each part meets exact specifications."
    },
    {
     "t": "h3",
-    "x": "🔧 How Injection Molding Works:"
+    "x": "🔧 The Injection Molding Process:"
    },
    {
     "t": "list",
     "items": [
-     "Plastic granules are fed into a heated barrel",
-     "Material melts and becomes molten plastic",
-     "Molten plastic is injected into a metal mold under high pressure",
-     "Plastic cools and solidifies inside the mold",
-     "Finished part is ejected from the mold"
+     "Plastic granules are fed into a heated barrel and melted",
+     "Molten plastic is mixed and homogenized",
+     "Material is injected into a custom metal mold under high pressure",
+     "Plastic fills the mold cavity completely",
+     "Cooling system solidifies the plastic",
+     "Mold opens and finished part is ejected",
+     "Process repeats for the next cycle"
     ]
    },
    {
+    "t": "h2",
+    "x": "Materials Available for Injection Molding"
+   },
+   {
+    "t": "p",
+    "x": "We offer a comprehensive range of thermoplastic materials for injection molding, from commodity plastics to high-performance engineering polymers. Each material is selected based on the application requirements including strength, temperature resistance, chemical compatibility, and cost."
+   },
+   {
     "t": "h3",
-    "x": "⭐ Advantages of Injection Molding"
+    "x": "Commodity Plastics"
    },
    {
     "t": "grid",
     "items": [
-     "Ideal for mass production",
-     "High precision & repeatability",
-     "Strong & durable parts",
-     "Smooth surface finish",
-     "Low cost per part (for high volumes)"
+     "ABS - Good strength, temperature resistance, widely used in automotive",
+     "Polypropylene (PP) - Chemical resistant, lightweight, food-safe options",
+     "Polyethylene (PE) - Flexible, moisture resistant, low cost",
+     "Polystyrene (PS) - Rigid, good dimensional stability"
+    ]
+   },
+   {
+    "t": "h3",
+    "x": "Engineering Plastics"
+   },
+   {
+    "t": "grid",
+    "items": [
+     "Polycarbonate (PC) - High impact strength, transparent, heat resistant",
+     "Nylon (PA) - Excellent wear resistance, high strength",
+     "POM (Acetal) - Low friction, high stiffness, dimensional stability",
+     "PBT - Good electrical properties, chemical resistance"
+    ]
+   },
+   {
+    "t": "h2",
+    "x": "Advantages of Injection Molding"
+   },
+   {
+    "t": "p",
+    "x": "Injection molding is the preferred manufacturing method for high-volume plastic parts due to its efficiency, precision, and scalability. Once the mold is created, producing additional parts becomes extremely cost-effective."
+   },
+   {
+    "t": "h3",
+    "x": "✅ Key Benefits"
+   },
+   {
+    "t": "grid",
+    "items": [
+     "Extremely low cost per part at high volumes",
+     "High precision and excellent repeatability",
+     "Fast cycle times enable mass production",
+     "Wide range of materials and colors available",
+     "Complex geometries with undercuts possible",
+     "Excellent surface finish - often requires no post-processing",
+     "Minimal material waste - efficient process",
+     "Insert molding allows integration of metal components"
+    ]
+   },
+   {
+    "t": "h2",
+    "x": "Drawbacks of Injection Molding"
+   },
+   {
+    "t": "p",
+    "x": "While injection molding offers many advantages for mass production, it has some limitations that make it less suitable for certain applications, particularly when production volumes are low or designs require frequent changes."
+   },
+   {
+    "t": "h3",
+    "x": "⚠️ Limitations"
+   },
+   {
+    "t": "grid",
+    "items": [
+     "High initial tooling cost for mold creation",
+     "Long lead time for mold design and fabrication",
+     "Design changes require mold modifications or new molds",
+     "Not economical for low volume production",
+     "Part size limited by machine capacity",
+     "High initial investment for equipment",
+     "Material limitations for certain applications"
+    ]
+   },
+   {
+    "t": "h2",
+    "x": "Comparing Injection Molding to Other Processes"
+   },
+   {
+    "t": "p",
+    "x": "Injection molding is one of several manufacturing processes available for plastic parts. Understanding how it compares to alternatives helps determine the best approach for your project."
+   },
+   {
+    "t": "h3",
+    "x": "Injection Molding vs 3D Printing"
+   },
+   {
+    "t": "grid",
+    "items": [
+     "Injection Molding: Best for mass production, low per-part cost",
+     "3D Printing: Best for prototypes and low volumes",
+     "Injection Molding: High precision and repeatability",
+     "3D Printing: Lower initial cost, no tooling required"
+    ]
+   },
+   {
+    "t": "h3",
+    "x": "Injection Molding vs Vacuum Casting"
+   },
+   {
+    "t": "grid",
+    "items": [
+     "Injection Molding: Metal molds, high durability, high volume",
+     "Vacuum Casting: Silicone molds, lower cost, small batches",
+     "Injection Molding: Better for long-term production",
+     "Vacuum Casting: Faster to get started, good for 10-100 parts"
+    ]
+   },
+   {
+    "t": "h3",
+    "x": "💡 When to Choose Injection Molding"
+   },
+   {
+    "t": "list",
+    "items": [
+     "Production volumes of 10,000+ parts",
+     "Applications requiring consistent quality across all parts",
+     "Projects with finalized, stable designs",
+     "Need for low per-unit cost",
+     "Requirements for high strength and durability",
+     "Long-term production runs"
     ]
    }
   ],
@@ -234,7 +362,7 @@
  },
  "low-volume-production": {
   "title": "Low Volume Production",
-  "subtitle": "Manufacturing from 10 to 1000 pieces with efficiency in Chennai",
+  "subtitle": "Manufacturing from 10 to 1000 pieces with efficiency in Chennai using multiple technologies including 3D printing, vacuum casting, and prototype tooling to bridge the gap between prototyping and mass production.",
   "blocks": [
    {
     "t": "h2",
@@ -242,32 +370,164 @@
    },
    {
     "t": "p",
-    "x": "Low Volume Production means manufacturing a small quantity of parts — usually from 10 to 1000 pieces — instead of mass production. VCAN 3D's low volume production services in Chennai are ideal for companies that need limited quantities before moving to full-scale injection molding, helping reduce initial investment and time to market."
+    "x": "Low Volume Production means manufacturing a small quantity of parts — usually from 10 to 1000 pieces — instead of mass production. VCAN 3D's low volume production services in Chennai are ideal for companies that need limited quantities before moving to full-scale injection molding, helping reduce initial investment and time to market. This approach allows businesses to test their products in the market, gather user feedback, and validate designs before committing to expensive production tooling."
+   },
+   {
+    "t": "h2",
+    "x": "How Does Low Volume Production Work?"
+   },
+   {
+    "t": "p",
+    "x": "Low volume production leverages multiple manufacturing technologies to produce small batches efficiently. The choice of technology depends on factors like part complexity, material requirements, quantity needed, and budget constraints."
    },
    {
     "t": "h3",
-    "x": "🔧 How VCAN 3D Does Low Volume Production:"
+    "x": "🔧 Our Low Volume Production Process:"
    },
    {
     "t": "list",
     "items": [
-     "Vacuum Casting (silicone molds)",
-     "3D Printing (SLS, MJF, SLA, FDM, DLP)",
-     "Prototype tooling",
-     "Short-run Injection Molding"
+     "Design review and optimization for manufacturability",
+     "Technology selection based on requirements and budget",
+     "Production using chosen method (3D printing, vacuum casting, or prototype tooling)",
+     "Quality inspection and post-processing",
+     "Testing and validation of produced parts",
+     "Delivery and feedback collection",
+     "Iteration if needed before scaling to mass production"
     ]
    },
    {
+    "t": "h2",
+    "x": "Technologies for Low Volume Production"
+   },
+   {
+    "t": "p",
+    "x": "We utilize multiple manufacturing technologies to provide flexible low volume production solutions. Each technology has unique advantages depending on your specific requirements."
+   },
+   {
     "t": "h3",
-    "x": "⭐ Benefits of Low Volume Production"
+    "x": "3D Printing Technologies"
    },
    {
     "t": "grid",
     "items": [
-     "Faster time to market",
-     "Lower initial investment",
-     "Bridge between prototyping & mass production",
-     "Design flexibility"
+     "FDM - Cost-effective, good for functional prototypes and small batches",
+     "SLA - High detail, smooth surface, ideal for visual prototypes",
+     "SLS - No supports needed, strong parts, good for functional components",
+     "MJF - High throughput, excellent mechanical properties",
+     "DLP - Fast printing, good resolution, suitable for detailed parts"
+    ]
+   },
+   {
+    "t": "h3",
+    "x": "Other Production Methods"
+   },
+   {
+    "t": "grid",
+    "items": [
+     "Vacuum Casting - Silicone molds, injection-molded quality, 10-100+ parts",
+     "Prototype Tooling - Soft tooling for short-run injection molding",
+     "CNC Machining - Precision metal parts, excellent tolerances",
+     "Urethane Casting - Multiple material options, good surface finish"
+    ]
+   },
+   {
+    "t": "h2",
+    "x": "Advantages of Low Volume Production"
+   },
+   {
+    "t": "p",
+    "x": "Low volume production offers significant advantages for businesses at various stages of product development, from initial market testing to pre-production validation."
+   },
+   {
+    "t": "h3",
+    "x": "✅ Key Benefits"
+   },
+   {
+    "t": "grid",
+    "items": [
+     "Faster time to market compared to traditional mass production",
+     "Lower initial investment - no expensive production tooling required",
+     "Design flexibility - easy to make changes between batches",
+     "Bridge between prototyping and full-scale production",
+     "Market testing with real products before major investment",
+     "Reduced risk by validating demand before scaling",
+     "Quick iteration based on user feedback",
+     "Cost-effective for limited quantities"
+    ]
+   },
+   {
+    "t": "h2",
+    "x": "Drawbacks of Low Volume Production"
+   },
+   {
+    "t": "p",
+    "x": "While low volume production offers flexibility and lower initial costs, it has some limitations compared to mass production that should be considered when planning your manufacturing strategy."
+   },
+   {
+    "t": "h3",
+    "x": "⚠️ Limitations"
+   },
+   {
+    "t": "grid",
+    "items": [
+     "Higher cost per part compared to mass production",
+     "Longer lead time per part than high-volume processes",
+     "Less consistency between batches compared to injection molding",
+     "Limited material options compared to full-scale production",
+     "Manual labor required for some post-processing steps",
+     "Not suitable for very large quantities",
+     "May have different properties than final production parts"
+    ]
+   },
+   {
+    "t": "h2",
+    "x": "Comparing Low Volume Production Options"
+   },
+   {
+    "t": "p",
+    "x": "Different low volume production methods offer various trade-offs in cost, quality, and lead time. Understanding these differences helps select the right approach for your project."
+   },
+   {
+    "t": "h3",
+    "x": "3D Printing vs Vacuum Casting"
+   },
+   {
+    "t": "grid",
+    "items": [
+     "3D Printing: No tooling cost, fast setup, good for complex geometries",
+     "Vacuum Casting: Lower per-part cost, better surface finish, mold cost required",
+     "3D Printing: Best for 1-50 parts",
+     "Vacuum Casting: Best for 10-100+ parts"
+    ]
+   },
+   {
+    "t": "h3",
+    "x": "Low Volume vs Mass Production"
+   },
+   {
+    "t": "grid",
+    "items": [
+     "Low Volume: Higher per-part cost, lower initial investment",
+     "Mass Production: Lower per-part cost, high tooling investment",
+     "Low Volume: Design flexibility, quick changes",
+     "Mass Production: Fixed design, long-term commitment"
+    ]
+   },
+   {
+    "t": "h3",
+    "x": "💡 When to Choose Low Volume Production"
+   },
+   {
+    "t": "list",
+    "items": [
+     "Market testing and product validation",
+     "Pilot production before full-scale manufacturing",
+     "Limited quantity requirements (10-1000 parts)",
+     "When design may still need changes",
+     "Budget constraints preventing tooling investment",
+     "Bridging gap between prototype and mass production",
+     "Spare parts and replacement components"
     ]
    }
   ],
@@ -280,7 +540,7 @@
  },
  "mould-making": {
   "title": "Mould Making",
-  "subtitle": "Custom tooling solutions for precision manufacturing in Chennai",
+  "subtitle": "Custom tooling solutions for precision manufacturing in Chennai. We create high-quality silicone and metal molds for vacuum casting and injection molding with precision engineering based on your CAD designs.",
   "blocks": [
    {
     "t": "h2",
@@ -288,31 +548,178 @@
    },
    {
     "t": "p",
-    "x": "Mould Making is the process of creating a mold (tool) used to produce plastic or resin parts. At VCAN 3D in Chennai, moulds are precision-engineered based on the customer's CAD design, enabling accurate and repeatable part production for vacuum casting and injection molding applications."
+    "x": "Mould Making is the process of creating a mold (tool) used to produce plastic or resin parts. At VCAN 3D in Chennai, moulds are precision-engineered based on the customer's CAD design, enabling accurate and repeatable part production for vacuum casting and injection molding applications. The quality of the mold directly impacts the quality of the final parts, making precision mould making critical for successful manufacturing."
+   },
+   {
+    "t": "h2",
+    "x": "How Does Mould Making Work?"
+   },
+   {
+    "t": "p",
+    "x": "Mould making involves transforming a digital design into a physical tool that can reproduce parts accurately. The process varies depending on the type of mold being created, but follows a systematic approach to ensure precision and quality."
    },
    {
     "t": "h3",
-    "x": "🔧 Types of Molds We Create:"
+    "x": "🔧 The Mould Making Process:"
    },
    {
     "t": "list",
     "items": [
-     "Silicone mold (for Vacuum Casting)",
-     "Metal mold (for Injection Molding)",
-     "Prototype tooling for low-volume production"
+     "Customer provides CAD design of the part",
+     "Mold design and draft analysis for manufacturability",
+     "Creation of master model (usually via CNC or 3D printing)",
+     "Mold fabrication based on type (silicone or metal)",
+     "Mold testing and validation with first samples",
+     "Adjustments and optimization if needed",
+     "Final mold approved for production use"
     ]
    },
    {
+    "t": "h2",
+    "x": "Types of Molds We Create"
+   },
+   {
+    "t": "p",
+    "x": "We offer different types of molds to suit various production needs, from low-volume vacuum casting to high-volume injection molding. Each mold type has specific characteristics that make it suitable for different applications."
+   },
+   {
     "t": "h3",
-    "x": "⭐ Our Mould Making Capabilities"
+    "x": "Silicone Molds"
    },
    {
     "t": "grid",
     "items": [
-     "Custom CAD-based design",
-     "High precision tooling",
-     "Durable metal molds",
-     "Flexible silicone molds"
+     "For Vacuum Casting applications",
+     "Lower cost and faster production",
+     "Flexible, easy to demold complex parts",
+     "Suitable for 10-100+ parts per mold",
+     "Multiple material options (ABS-like, rubber-like, transparent)"
+    ]
+   },
+   {
+    "t": "h3",
+    "x": "Metal Molds"
+   },
+   {
+    "t": "grid",
+    "items": [
+     "For Injection Molding applications",
+     "High durability for long production runs",
+     "Excellent dimensional accuracy",
+     "Suitable for thousands to millions of parts",
+     "Steel or aluminum construction options"
+    ]
+   },
+   {
+    "t": "h3",
+    "x": "Prototype Tooling"
+   },
+   {
+    "t": "grid",
+    "items": [
+     "Soft tooling for short-run production",
+     "Lower cost than production tooling",
+     "Faster lead times",
+     "Bridge between prototype and production",
+     "Ideal for market testing and validation"
+    ]
+   },
+   {
+    "t": "h2",
+    "x": "Advantages of Professional Mould Making"
+   },
+   {
+    "t": "p",
+    "x": "Professional mould making ensures that your production runs smoothly and consistently produce high-quality parts. Well-designed molds reduce costs, improve quality, and increase production efficiency."
+   },
+   {
+    "t": "h3",
+    "x": "✅ Key Benefits"
+   },
+   {
+    "t": "grid",
+    "items": [
+     "Precision engineering ensures accurate part dimensions",
+     "Repeatable quality across all produced parts",
+     "Long mold life with proper maintenance",
+     "Optimized design for easy part ejection",
+     "Reduced cycle times in production",
+     "Minimal waste and scrap rates",
+     "Cost-effective over the life of the mold",
+     "Support for complex geometries and features"
+    ]
+   },
+   {
+    "t": "h2",
+    "x": "Drawbacks of Mould Making"
+   },
+   {
+    "t": "p",
+    "x": "While mould making is essential for production, it involves significant investment and lead time. Understanding these limitations helps in planning your manufacturing strategy effectively."
+   },
+   {
+    "t": "h3",
+    "x": "⚠️ Limitations"
+   },
+   {
+    "t": "grid",
+    "items": [
+     "High initial cost for metal molds",
+     "Long lead time for mold design and fabrication",
+     "Design changes require mold modifications or new molds",
+     "Mold maintenance required for optimal performance",
+     "Storage requirements for large molds",
+     "Initial investment before any parts can be produced",
+     "Technical expertise required for complex designs"
+    ]
+   },
+   {
+    "t": "h2",
+    "x": "Comparing Mould Types"
+   },
+   {
+    "t": "p",
+    "x": "Different mold types serve different production needs. Understanding the trade-offs helps select the right approach for your specific requirements."
+   },
+   {
+    "t": "h3",
+    "x": "Silicone vs Metal Molds"
+   },
+   {
+    "t": "grid",
+    "items": [
+     "Silicone: Lower cost, faster production, limited lifespan",
+     "Metal: Higher cost, longer life, higher production volumes",
+     "Silicone: Flexible, good for complex geometries",
+     "Metal: Rigid, excellent dimensional stability"
+    ]
+   },
+   {
+    "t": "h3",
+    "x": "Prototype vs Production Tooling"
+   },
+   {
+    "t": "grid",
+    "items": [
+     "Prototype: Lower cost, faster, limited durability",
+     "Production: Higher cost, slower, excellent durability",
+     "Prototype: Good for validation and testing",
+     "Production: Essential for mass production"
+    ]
+   },
+   {
+    "t": "h3",
+    "x": "💡 When to Choose Mould Making"
+   },
+   {
+    "t": "list",
+    "items": [
+     "Need for consistent, repeatable part quality",
+     "Production volumes of 10+ parts",
+     "Requirements for specific material properties",
+     "Applications requiring tight tolerances",
+     "Long-term production needs",
+     "When design is finalized and stable"
     ]
    }
   ],
@@ -325,7 +732,7 @@
  },
  "rapid-prototyping": {
   "title": "Rapid Prototyping",
-  "subtitle": "Accelerate your product development cycle in Chennai",
+  "subtitle": "Accelerate your product development cycle in Chennai with fast 3D printing and prototyping services. We help companies test, improve, and finalize their product designs before mass production, saving time and development costs.",
   "blocks": [
    {
     "t": "h2",
@@ -333,34 +740,180 @@
    },
    {
     "t": "p",
-    "x": "Rapid Prototyping is a fast manufacturing process used to quickly create a physical model or prototype of a product design using 3D printing or other advanced technologies. VCAN 3D's rapid prototyping services in Chennai help companies test, improve, and finalize their product before mass production, saving time and development costs."
+    "x": "Rapid Prototyping is a fast manufacturing process used to quickly create a physical model or prototype of a product design using 3D printing or other advanced technologies. VCAN 3D's rapid prototyping services in Chennai help companies test, improve, and finalize their product before mass production, saving time and development costs. This iterative approach allows designers and engineers to validate their ideas, identify potential issues early, and make necessary changes before investing in expensive production tooling."
+   },
+   {
+    "t": "h2",
+    "x": "How Does Rapid Prototyping Work?"
+   },
+   {
+    "t": "p",
+    "x": "Rapid prototyping follows an iterative process that transforms digital designs into physical parts quickly. The cycle of design, prototype, test, and refine enables faster product development and better final products."
    },
    {
     "t": "h3",
-    "x": "🔧 How It Works at VCAN 3D:"
+    "x": "🔧 The Rapid Prototyping Process:"
    },
    {
     "t": "list",
     "items": [
      "Customer shares CAD file (STL/STEP format)",
-     "Suitable technology selected (FDM, SLA, SLS, MJF, DLP)",
-     "Prototype is 3D printed quickly",
-     "Testing, design changes & improvements made",
-     "Final product approval before mass production"
+     "Design review and optimization for 3D printing",
+     "Technology selection based on requirements (FDM, SLA, SLS, MJF, DLP)",
+     "Prototype is 3D printed using selected technology",
+     "Post-processing and finishing if required",
+     "Functional and visual testing of prototype",
+     "Design changes and improvements made based on feedback",
+     "Iterate until final design is approved"
     ]
    },
    {
+    "t": "h2",
+    "x": "Rapid Prototyping Technologies"
+   },
+   {
+    "t": "p",
+    "x": "We offer multiple 3D printing technologies for rapid prototyping, each with unique advantages depending on your specific requirements such as speed, detail, strength, and material properties."
+   },
+   {
     "t": "h3",
-    "x": "⭐ Benefits of Rapid Prototyping"
+    "x": "FDM 3D Printing"
    },
    {
     "t": "grid",
     "items": [
-     "Faster product development",
-     "Reduced development cost",
-     "Easy design modification",
-     "Quick market testing",
-     "Functional & visual testing"
+     "Cost-effective for functional prototypes",
+     "Wide range of thermoplastic materials",
+     "Good strength and durability",
+     "Fast turnaround times",
+     "Large build volumes available"
+    ]
+   },
+   {
+    "t": "h3",
+    "x": "SLA 3D Printing"
+   },
+   {
+    "t": "grid",
+    "items": [
+     "Extremely high detail and resolution",
+     "Smooth surface finish",
+     "Ideal for visual prototypes",
+     "Excellent for small, detailed parts",
+     "Multiple resin material options"
+    ]
+   },
+   {
+    "t": "h3",
+    "x": "SLS & MJF 3D Printing"
+   },
+   {
+    "t": "grid",
+    "items": [
+     "No support structures required",
+     "Strong, functional parts",
+     "Complex geometries possible",
+     "Isotropic mechanical properties",
+     "Good for batch production"
+    ]
+   },
+   {
+    "t": "h2",
+    "x": "Advantages of Rapid Prototyping"
+   },
+   {
+    "t": "p",
+    "x": "Rapid prototyping has revolutionized product development by dramatically reducing the time and cost required to bring new products to market. It enables faster innovation and better decision-making throughout the development process."
+   },
+   {
+    "t": "h3",
+    "x": "✅ Key Benefits"
+   },
+   {
+    "t": "grid",
+    "items": [
+     "Accelerated product development cycles",
+     "Reduced development costs compared to traditional methods",
+     "Easy design modification and iteration",
+     "Quick market testing and validation",
+     "Functional testing of designs before production",
+     "Visual prototypes for presentations and stakeholder review",
+     "Early identification of design issues",
+     "Better communication between design teams and stakeholders"
+    ]
+   },
+   {
+    "t": "h2",
+    "x": "Drawbacks of Rapid Prototyping"
+   },
+   {
+    "t": "p",
+    "x": "While rapid prototyping offers significant advantages, it has some limitations that should be considered when planning your product development strategy."
+   },
+   {
+    "t": "h3",
+    "x": "⚠️ Limitations"
+   },
+   {
+    "t": "grid",
+    "items": [
+     "Material properties may differ from final production materials",
+     "Size limitations based on printer build volume",
+     "Surface finish may require post-processing",
+     "Not suitable for end-use production in most cases",
+     "May have anisotropic properties depending on technology",
+     "Layer lines visible on some parts",
+     "Limited material options compared to mass production"
+    ]
+   },
+   {
+    "t": "h2",
+    "x": "Comparing Rapid Prototyping Approaches"
+   },
+   {
+    "t": "p",
+    "x": "Different rapid prototyping technologies offer various trade-offs in speed, cost, quality, and material properties. Understanding these differences helps select the right approach for your project."
+   },
+   {
+    "t": "h3",
+    "x": "Visual vs Functional Prototyping"
+   },
+   {
+    "t": "grid",
+    "items": [
+     "Visual: Focus on appearance, SLA or DLP recommended",
+     "Functional: Focus on performance, FDM or SLS recommended",
+     "Visual: Smooth surfaces, high detail",
+     "Functional: Strong materials, real-world testing"
+    ]
+   },
+   {
+    "t": "h3",
+    "x": "Rapid Prototyping vs Traditional Methods"
+   },
+   {
+    "t": "grid",
+    "items": [
+     "Rapid Prototyping: Days to weeks, low cost",
+     "Traditional: Weeks to months, high cost",
+     "Rapid Prototyping: Easy design changes",
+     "Traditional: Changes require new tooling"
+    ]
+   },
+   {
+    "t": "h3",
+    "x": "💡 When to Choose Rapid Prototyping"
+   },
+   {
+    "t": "list",
+    "items": [
+     "Early stage product development",
+     "Design validation and testing",
+     "Form and fit verification",
+     "Functional testing of mechanisms",
+     "Stakeholder presentations and feedback",
+     "Before investing in production tooling",
+     "When quick iteration is needed"
     ]
    }
   ],
@@ -373,7 +926,7 @@
  },
  "sla": {
   "title": "SLA 3D Printing",
-  "subtitle": "High-precision resin-based manufacturing in Chennai",
+  "subtitle": "High-precision resin-based manufacturing in Chennai with exceptional accuracy and surface quality. Our SLA services deliver detailed parts for prototypes, precision components, and visual models.",
   "blocks": [
    {
     "t": "h2",
@@ -381,33 +934,162 @@
    },
    {
     "t": "p",
-    "x": "SLA (Stereolithography) is a resin-based 3D printing technology that uses a UV laser to cure (harden) liquid photopolymer resin layer by layer to create highly detailed parts. VCAN 3D's SLA services in Chennai deliver exceptional accuracy and surface quality for prototypes and precision components."
+    "x": "SLA (Stereolithography) is a resin-based 3D printing technology that uses a UV laser to cure (harden) liquid photopolymer resin layer by layer to create highly detailed parts. VCAN 3D's SLA services in Chennai deliver exceptional accuracy and surface quality for prototypes and precision components. SLA is the original 3D printing technology and remains the gold standard for applications requiring fine details and smooth surface finishes."
+   },
+   {
+    "t": "h2",
+    "x": "How Does SLA 3D Printing Work?"
+   },
+   {
+    "t": "p",
+    "x": "SLA builds parts by selectively curing liquid resin with a UV laser according to the digital design. The process builds parts layer by layer from the bottom up, with each new layer curing onto the previous one."
    },
    {
     "t": "h3",
-    "x": "🔧 How SLA Works:"
+    "x": "🔧 The SLA Process:"
    },
    {
     "t": "list",
     "items": [
-     "Liquid resin is filled in a tank",
-     "UV laser scans the design layer by layer",
-     "Resin hardens where the laser hits",
-     "Platform moves layer by layer",
-     "Final part is cleaned & UV cured"
+     "Build platform is lowered into a tank of liquid photopolymer resin",
+     "UV laser scans the cross-section of the layer, curing the resin",
+     "Platform raises slightly to allow fresh resin to flow beneath",
+     "Platform lowers for the next layer",
+     "Process repeats layer by layer until part is complete",
+     "Part is removed from tank and cleaned in isopropyl alcohol",
+     "Final UV post-curing to achieve maximum material properties"
     ]
    },
    {
+    "t": "h2",
+    "x": "Materials Available in Our SLA Service"
+   },
+   {
+    "t": "p",
+    "x": "We offer a variety of photopolymer resins for SLA printing, each formulated for specific applications ranging from visual prototypes to functional engineering parts."
+   },
+   {
     "t": "h3",
-    "x": "⭐ Advantages of SLA 3D Printing"
+    "x": "Standard Resins"
    },
    {
     "t": "grid",
     "items": [
-     "Very high accuracy",
-     "Smooth surface finish",
-     "Great for detailed prototypes",
-     "Ideal for small & precision parts"
+     "Standard Resin - General purpose, good balance of properties",
+     "Clear Resin - Transparent parts, excellent optical clarity",
+     "Grey/Black Resin - Neutral colors, good for visual models"
+    ]
+   },
+   {
+    "t": "h3",
+    "x": "Engineering Resins"
+   },
+   {
+    "t": "grid",
+    "items": [
+     "Tough/Durable Resin - High impact resistance, similar to ABS",
+     "Flexible Resin - Rubber-like properties, for flexible parts",
+     "High-Temp Resin - Excellent heat resistance",
+     "Dental/Medical Resin - Biocompatible, for medical applications"
+    ]
+   },
+   {
+    "t": "h2",
+    "x": "Advantages of SLA 3D Printing"
+   },
+   {
+    "t": "p",
+    "x": "SLA is renowned for its exceptional resolution and surface quality, making it the preferred choice for applications where appearance and fine details are critical."
+   },
+   {
+    "t": "h3",
+    "x": "✅ Key Benefits"
+   },
+   {
+    "t": "grid",
+    "items": [
+     "Extremely high resolution and detail accuracy",
+     "Smooth surface finish, minimal post-processing required",
+     "Wide range of material properties available",
+     "Excellent for small, intricate parts",
+     "Good dimensional accuracy",
+     "Suitable for visual prototypes and presentation models",
+     "Can achieve transparency with clear resins",
+     "Fine feature reproduction"
+    ]
+   },
+   {
+    "t": "h2",
+    "x": "Drawbacks of SLA 3D Printing"
+   },
+   {
+    "t": "p",
+    "x": "While SLA offers superior surface quality and detail, it has some limitations that should be considered when selecting a 3D printing technology for your project."
+   },
+   {
+    "t": "h3",
+    "x": "⚠️ Limitations"
+   },
+   {
+    "t": "grid",
+    "items": [
+     "Support structures required for overhangs, can leave marks",
+     "Parts may be brittle depending on resin choice",
+     "Requires post-processing (cleaning and curing)",
+     "Resin can be messy and requires careful handling",
+     "Limited thermal and chemical resistance compared to thermoplastics",
+     "Mechanical properties may degrade over time with UV exposure",
+     "Not ideal for large functional parts"
+    ]
+   },
+   {
+    "t": "h2",
+    "x": "Comparing SLA to Other 3D Printing Processes"
+   },
+   {
+    "t": "p",
+    "x": "SLA is one of several 3D printing technologies, each with unique strengths. Understanding the differences helps you choose the right process for your application."
+   },
+   {
+    "t": "h3",
+    "x": "SLA vs FDM"
+   },
+   {
+    "t": "grid",
+    "items": [
+     "SLA: Higher resolution, smoother surface, resin-based",
+     "FDM: Lower cost, stronger materials, filament-based",
+     "SLA: Better for visual prototypes and detailed parts",
+     "FDM: Better for functional prototypes and larger parts"
+    ]
+   },
+   {
+    "t": "h3",
+    "x": "SLA vs SLS"
+   },
+   {
+    "t": "grid",
+    "items": [
+     "SLA: Higher detail, requires supports, resin-based",
+     "SLS: No supports, stronger parts, powder-based",
+     "SLA: Better for visual models and small details",
+     "SLS: Better for functional parts and complex geometries"
+    ]
+   },
+   {
+    "t": "h3",
+    "x": "💡 When to Choose SLA"
+   },
+   {
+    "t": "list",
+    "items": [
+     "Visual prototypes requiring smooth surface finish",
+     "Small parts with fine details and features",
+     "Applications requiring high dimensional accuracy",
+     "Transparent or clear parts needed",
+     "Jewelry, dental, and medical applications",
+     "Presentation models and prototypes",
+     "When appearance is more important than strength"
     ]
    }
   ],
@@ -420,7 +1102,7 @@
  },
  "sls-mjf-dlp": {
   "title": "SLS / MJF / DLP 3D Printing",
-  "subtitle": "Advanced Industrial 3D Printing Technologies in Chennai",
+  "subtitle": "Advanced Industrial 3D Printing Technologies in Chennai offering strong, functional parts without support structures. We provide SLS, MJF, and DLP services for complex geometries and production-grade components.",
   "blocks": [
    {
     "t": "h2",
@@ -428,33 +1110,211 @@
    },
    {
     "t": "p",
-    "x": "SLS (Selective Laser Sintering) is a 3D printing technology that uses a high-power laser to fuse powdered material (usually Nylon/PA12) layer by layer to create strong and functional parts. Unlike FDM, SLS does not require support structures because the surrounding powder supports the part during printing."
+    "x": "SLS (Selective Laser Sintering) is a 3D printing technology that uses a high-power laser to fuse powdered material (usually Nylon/PA12) layer by layer to create strong and functional parts. Unlike FDM, SLS does not require support structures because the surrounding powder supports the part during printing. VCAN 3D's SLS services in Chennai are ideal for functional prototypes and end-use parts requiring high strength and complex geometries."
+   },
+   {
+    "t": "h2",
+    "x": "What is MJF 3D Printing?"
+   },
+   {
+    "t": "p",
+    "x": "MJF (Multi Jet Fusion) is HP's industrial 3D printing technology that uses a multi-agent printing process to fuse powder layer by layer. It offers faster build times and excellent mechanical properties, making it suitable for production-grade parts. VCAN 3D's MJF services in Chennai provide high-quality nylon parts with consistent properties across production runs."
+   },
+   {
+    "t": "h2",
+    "x": "What is DLP 3D Printing?"
+   },
+   {
+    "t": "p",
+    "x": "DLP (Digital Light Processing) is a resin-based 3D printing technology that uses a digital projector to cure entire layers of photopolymer resin simultaneously. DLP offers faster print speeds than SLA for certain applications while maintaining high resolution. VCAN 3D's DLP services in Chennai are ideal for detailed parts and small batch production."
+   },
+   {
+    "t": "h2",
+    "x": "How Do These Technologies Work?"
+   },
+   {
+    "t": "p",
+    "x": "Each technology uses a different approach to build parts, but all follow the principle of additive manufacturing by building layer by layer from a digital design."
    },
    {
     "t": "h3",
-    "x": "🔧 How SLS Works:"
+    "x": "🔧 SLS Process:"
    },
    {
     "t": "list",
     "items": [
      "A thin layer of powder is spread on the build platform",
-     "Laser selectively fuses the powder as per CAD design",
+     "High-power laser selectively fuses the powder according to CAD design",
      "Platform lowers and new powder layer is spread",
-     "Process repeats layer by layer",
-     "Excess powder is removed after printing"
+     "Process repeats layer by layer until part is complete",
+     "Build chamber cools down to stabilize parts",
+     "Excess powder is removed and parts are extracted",
+     "Media blasting to remove residual powder"
     ]
    },
    {
     "t": "h3",
-    "x": "⭐ Advantages of SLS"
+    "x": "🔧 MJF Process:"
+   },
+   {
+    "t": "list",
+    "items": [
+     "A thin layer of powder is spread on the build platform",
+     "Fusing agent is applied where material should be solid",
+     "Detailing agent is applied at edges for precision",
+     "Infrared lamp passes over to fuse the powder",
+     "Platform lowers and new powder layer is spread",
+     "Process repeats until build is complete",
+     "Parts are removed from powder and cleaned"
+    ]
+   },
+   {
+    "t": "h3",
+    "x": "🔧 DLP Process:"
+   },
+   {
+    "t": "list",
+    "items": [
+     "Build platform is lowered into resin tank",
+     "Digital projector flashes entire layer image onto resin",
+     "Resin cures where exposed to light",
+     "Platform raises for next layer",
+     "Process repeats until part is complete",
+     "Part is cleaned in isopropyl alcohol",
+     "UV post-curing for final properties"
+    ]
+   },
+   {
+    "t": "h2",
+    "x": "Materials Available"
+   },
+   {
+    "t": "p",
+    "x": "These technologies support various materials suited for different applications, from functional engineering parts to detailed visual models."
+   },
+   {
+    "t": "h3",
+    "x": "SLS & MJF Materials"
    },
    {
     "t": "grid",
     "items": [
-     "No support structures required",
-     "Strong & durable parts",
-     "Complex geometries possible",
-     "Good for batch production"
+     "PA12 (Nylon) - Balanced properties, good strength and flexibility",
+     "PA11 - Higher flexibility, better chemical resistance",
+     "TPU - Flexible, rubber-like parts (SLS)",
+     "Glass-filled Nylon - Enhanced stiffness and thermal properties"
+    ]
+   },
+   {
+    "t": "h3",
+    "x": "DLP Materials"
+   },
+   {
+    "t": "grid",
+    "items": [
+     "Standard Resin - General purpose, good detail",
+     "Engineering Resins - Various mechanical properties",
+     "Dental/Medical Resins - Biocompatible options",
+     "Castable Resins - For jewelry and casting applications"
+    ]
+   },
+   {
+    "t": "h2",
+    "x": "Advantages of SLS, MJF, and DLP"
+   },
+   {
+    "t": "p",
+    "x": "These advanced 3D printing technologies offer significant advantages for functional parts and production applications."
+   },
+   {
+    "t": "h3",
+    "x": "✅ Key Benefits"
+   },
+   {
+    "t": "grid",
+    "items": [
+     "No support structures required (SLS & MJF)",
+     "Strong, functional parts with good mechanical properties",
+     "Complex geometries and internal features possible",
+     "Isotropic strength properties (SLS & MJF)",
+     "Excellent for batch production and nesting",
+     "High throughput with MJF technology",
+     "Good dimensional accuracy",
+     "Wide range of material options"
+    ]
+   },
+   {
+    "t": "h2",
+    "x": "Drawbacks of These Technologies"
+   },
+   {
+    "t": "p",
+    "x": "While these technologies offer advanced capabilities, they have some limitations that should be considered."
+   },
+   {
+    "t": "h3",
+    "x": "⚠️ Limitations"
+   },
+   {
+    "t": "grid",
+    "items": [
+     "Higher cost per part compared to FDM",
+     "Powder-based processes have grainy surface finish (SLS & MJF)",
+     "Post-processing required to remove powder",
+     "Limited material selection compared to traditional manufacturing",
+     "Part size limited by build chamber dimensions",
+     "DLP requires support structures for overhangs",
+     "Resin-based parts may degrade with UV exposure (DLP)"
+    ]
+   },
+   {
+    "t": "h2",
+    "x": "Comparing SLS, MJF, and DLP"
+   },
+   {
+    "t": "p",
+    "x": "Each technology has unique characteristics that make it suitable for different applications."
+   },
+   {
+    "t": "h3",
+    "x": "SLS vs MJF"
+   },
+   {
+    "t": "grid",
+    "items": [
+     "SLS: Laser-based, widely used, good flexibility",
+     "MJF: Agent-based, faster, more consistent properties",
+     "SLS: Good for complex geometries",
+     "MJF: Better for production runs and throughput"
+    ]
+   },
+   {
+    "t": "h3",
+    "x": "SLS/MJF vs DLP"
+   },
+   {
+    "t": "grid",
+    "items": [
+     "SLS/MJF: Powder-based, no supports, functional parts",
+     "DLP: Resin-based, requires supports, detailed parts",
+     "SLS/MJF: Stronger, for functional applications",
+     "DLP: Higher detail, for visual and precision parts"
+    ]
+   },
+   {
+    "t": "h3",
+    "x": "💡 When to Choose These Technologies"
+   },
+   {
+    "t": "list",
+    "items": [
+     "Functional prototypes requiring strength",
+     "End-use parts and production components",
+     "Complex geometries with internal features",
+     "Batch production of multiple parts",
+     "Applications requiring isotropic properties",
+     "When support structures would be problematic",
+     "Small detailed parts (DLP)"
     ]
    }
   ],
@@ -475,7 +1335,7 @@
  },
  "vacuum-casting": {
   "title": "Vacuum Casting",
-  "subtitle": "High-quality plastic parts in small batches using silicone molds",
+  "subtitle": "High-quality plastic parts in small batches using silicone molds in Chennai. Our vacuum casting service produces parts that closely resemble injection-molded components at a fraction of the cost, ideal for 10-100+ parts.",
   "blocks": [
    {
     "t": "h2",
@@ -483,34 +1343,164 @@
    },
    {
     "t": "p",
-    "x": "Vacuum Casting is a manufacturing process used to produce high-quality plastic parts in small batches using a silicone mold under vacuum conditions. VCAN 3D's vacuum casting service in Chennai is mainly used for low-volume production and for creating parts that closely resemble injection-molded components at a fraction of the cost."
+    "x": "Vacuum Casting is a manufacturing process used to produce high-quality plastic parts in small batches using a silicone mold under vacuum conditions. VCAN 3D's vacuum casting service in Chennai is mainly used for low-volume production and for creating parts that closely resemble injection-molded components at a fraction of the cost. This process is ideal for bridge production between prototyping and full-scale injection molding, offering excellent surface finish and material properties."
+   },
+   {
+    "t": "h2",
+    "x": "How Does Vacuum Casting Work?"
+   },
+   {
+    "t": "p",
+    "x": "Vacuum casting follows a systematic process that starts with creating a master model and ends with producing multiple copies from a silicone mold. The vacuum environment ensures that no air bubbles are trapped in the final parts."
    },
    {
     "t": "h3",
-    "x": "🔧 How Vacuum Casting Works:"
+    "x": "🔧 The Vacuum Casting Process:"
    },
    {
     "t": "list",
     "items": [
-     "A master model is created (usually by SLA/DLP 3D printing)",
-     "Silicone rubber is poured around the master to create a mold",
-     "Mold is placed inside a vacuum chamber",
-     "Liquid polyurethane resin is poured into the mold",
-     "Resin cures and the finished part is removed"
+     "Master model is created using SLA or DLP 3D printing",
+     "Master is finished and polished to required surface quality",
+     "Silicone rubber is poured around the master in a mold box",
+     "Silicone cures to form a flexible mold",
+     "Master is removed from the silicone mold",
+     "Mold is placed in a vacuum chamber",
+     "Liquid polyurethane resin is poured into the mold under vacuum",
+     "Resin cures and finished part is removed from mold",
+     "Process repeats for additional parts from the same mold"
     ]
    },
    {
+    "t": "h2",
+    "x": "Materials Available for Vacuum Casting"
+   },
+   {
+    "t": "p",
+    "x": "We offer a wide range of polyurethane resins that simulate various plastic materials, allowing you to match the properties of your final production parts."
+   },
+   {
     "t": "h3",
-    "x": "⭐ Advantages of Vacuum Casting"
+    "x": "Standard Materials"
    },
    {
     "t": "grid",
     "items": [
-     "Ideal for low-volume production (10–100+ parts)",
-     "Smooth surface finish",
-     "Multiple material options (ABS-like, rubber-like, transparent)",
-     "Lower cost compared to injection molding",
-     "Faster lead time"
+     "ABS-like - Strong, rigid, similar to injection-molded ABS",
+     "PP-like - Flexible, chemical resistant, similar to polypropylene",
+     "PA-like - Good strength and temperature resistance"
+    ]
+   },
+   {
+    "t": "h3",
+    "x": "Specialty Materials"
+   },
+   {
+    "t": "grid",
+    "items": [
+     "Rubber-like - Flexible, elastomeric properties, various hardness options",
+     "Transparent/Clear - Optical clarity, similar to polycarbonate or acrylic",
+     "High-temp - Enhanced heat resistance for demanding applications",
+     "Fire-retardant - UL94 rated materials for safety-critical applications"
+    ]
+   },
+   {
+    "t": "h2",
+    "x": "Advantages of Vacuum Casting"
+   },
+   {
+    "t": "p",
+    "x": "Vacuum casting offers an excellent balance between cost, quality, and lead time for small batch production, making it ideal for many applications."
+   },
+   {
+    "t": "h3",
+    "x": "✅ Key Benefits"
+   },
+   {
+    "t": "grid",
+    "items": [
+     "Lower cost compared to injection molding for small batches",
+     "Excellent surface finish and detail reproduction",
+     "Wide range of material properties available",
+     "Flexible silicone molds allow easy part ejection",
+     "Multiple material options from single mold",
+     "Color matching and finishing options available",
+     "Faster lead time than injection molding",
+     "Parts closely resemble injection-molded quality"
+    ]
+   },
+   {
+    "t": "h2",
+    "x": "Drawbacks of Vacuum Casting"
+   },
+   {
+    "t": "p",
+    "x": "While vacuum casting offers many advantages for small batch production, it has some limitations compared to other manufacturing methods."
+   },
+   {
+    "t": "h3",
+    "x": "⚠️ Limitations"
+   },
+   {
+    "t": "grid",
+    "items": [
+     "Limited mold life - typically 10-25 parts per mold",
+     "Higher cost per part than injection molding at high volumes",
+     "Material properties may differ from production plastics",
+     "Not suitable for very large quantities",
+     "Requires creation of high-quality master model",
+     "Mold degradation over multiple castings",
+     "Longer cycle time than injection molding per part"
+    ]
+   },
+   {
+    "t": "h2",
+    "x": "Comparing Vacuum Casting to Other Processes"
+   },
+   {
+    "t": "p",
+    "x": "Vacuum casting occupies a unique position between 3D printing and injection molding, offering advantages for specific production scenarios."
+   },
+   {
+    "t": "h3",
+    "x": "Vacuum Casting vs 3D Printing"
+   },
+   {
+    "t": "grid",
+    "items": [
+     "Vacuum Casting: Better surface finish, lower per-part cost for batches",
+     "3D Printing: No tooling cost, faster for single parts",
+     "Vacuum Casting: Better material properties and options",
+     "3D Printing: More design flexibility, no mold constraints"
+    ]
+   },
+   {
+    "t": "h3",
+    "x": "Vacuum Casting vs Injection Molding"
+   },
+   {
+    "t": "grid",
+    "items": [
+     "Vacuum Casting: Lower tooling cost, faster to start",
+     "Injection Molding: Lower per-part cost at high volumes",
+     "Vacuum Casting: Better for 10-100+ parts",
+     "Injection Molding: Better for 1000+ parts"
+    ]
+   },
+   {
+    "t": "h3",
+    "x": "💡 When to Choose Vacuum Casting"
+   },
+   {
+    "t": "list",
+    "items": [
+     "Low-volume production of 10-100+ parts",
+     "Need for injection-molded quality without tooling cost",
+     "Bridge production before full-scale manufacturing",
+     "When design may still need minor adjustments",
+     "Applications requiring excellent surface finish",
+     "Multiple material options needed from same design",
+     "Color and finishing requirements"
     ]
    }
   ],

@@ -28,12 +28,45 @@ export const SERVICES: Service[] = [
   { slug: "low-volume-production", title: "Low Volume Production", desc: "Small batch manufacturing from 10 to 1000 pieces with flexible options.", image: "Vacuum-Casting-2.png", icon: <Boxes className={ic} />, wide: true },
 ];
 
-export const INDUSTRIES = [
-  { name: "Automotive", icon: <Car className="h-6 w-6" /> },
-  { name: "Aerospace", icon: <Plane className="h-6 w-6" /> },
-  { name: "Medical", icon: <HeartPulse className="h-6 w-6" /> },
-  { name: "Industrial Equipment", icon: <Cog className="h-6 w-6" /> },
-  { name: "Consumer Products", icon: <ShoppingBag className="h-6 w-6" /> },
+export type Industry = { name: string; icon: ReactNode; slug: string; desc: string; items: string[]; title: string; subtitle: string };
+const industryIcon = "h-6 w-6";
+export const INDUSTRIES: Industry[] = [
+  {
+    name: "Aerospace",
+    icon: <Plane className={industryIcon} />,
+    slug: "aerospace",
+    desc: "Lightweight, high-strength components for aircraft and space applications",
+    items: ["Engine Components", "Interior Parts", "Prototyping", "Thermal Protection"],
+    title: "3D Printing in Aerospace",
+    subtitle: "Ultra-precise 3D printing services for aerospace components including Jig/Fixtures, Dampers, Surrogate Parts, Drone Canopy, Sensor Enclosures, and more."
+  },
+  {
+    name: "Automotive",
+    icon: <Car className={industryIcon} />,
+    slug: "automotive",
+    desc: "Rapid prototyping and production parts for automotive industry",
+    items: ["Prototyping", "Custom Parts", "Interior Components", "Engine Parts"],
+    title: "3D Printing in Automotive",
+    subtitle: "Rapid prototyping and production parts for automotive industry including bikes, scooters, cars, and truck components with quick turnaround times."
+  },
+  {
+    name: "Medical",
+    icon: <HeartPulse className={industryIcon} />,
+    slug: "medical",
+    desc: "Biocompatible and precision parts for medical devices and healthcare",
+    items: ["Surgical Guides", "Prosthetics", "Medical Devices", "Dental Models"],
+    title: "3D Printing in Medical",
+    subtitle: "Bio-compatible and precision parts for medical devices and healthcare including surgical guides, prosthetics, medical devices, and dental models."
+  },
+  {
+    name: "Robotics",
+    icon: <Cog className={industryIcon} />,
+    slug: "robotics",
+    desc: "Custom components and enclosures for robotics and automation",
+    items: ["Robot Arms", "Sensor Housings", "Custom Gears", "Prototyping"],
+    title: "3D Printing in Robotics",
+    subtitle: "Custom components and enclosures for robotics and automation including robot arms, sensor housings, custom gears, and prototyping."
+  },
 ];
 
 export const STEPS = [
@@ -53,6 +86,6 @@ export const WHY = [
 export const STATS = [
   { to: 15, suffix: "+", label: "Years of Expertise" },
   { to: 8, suffix: "", label: "Manufacturing Services" },
-  { to: 5, suffix: "", label: "Industries We Serve" },
-  { to: 9, suffix: "", label: "Material Grades" },
+  { to: 4, suffix: "", label: "Industries We Serve" },
+  { to: 20, suffix: "+", label: "Material Grades" },
 ];
